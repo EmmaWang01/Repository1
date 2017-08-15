@@ -1,0 +1,1 @@
+Provider=SQLOLEDB.1;Password=Madbkan3;Persist Security Info=True;User ID=sa;Initial Catalog=M3_MAIN_Rep;Data Source=m3-db01.money3.local;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=365APL1;Use Encryption for Data=False;Tag with column collation when possible=False

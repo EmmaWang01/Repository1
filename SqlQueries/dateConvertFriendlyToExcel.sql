@@ -1,0 +1,1 @@
+CONVERT(DATETIME, FLOOR(CONVERT(FLOAT, PDAT.RCD_CurrentStart))) as 'Settlement Date'

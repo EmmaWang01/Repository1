@@ -1,0 +1,2 @@
+ LEFT JOIN io_link_masterreference AS BranchRefLink ON BranchRefLink.lmr_idlink_code_id = io_product_masterreference.rmr_id  AND BranchRefLink.lmr_idlink_association =  '{5b3468c2-78d3-450d-bfe3-52c15a6a1d0c}' 
+           LEFT JOIN io_client_masterreference AS CMRBranchRef ON CMRBranchRef.cmr_id = BranchRefLink.lmr_idlink_cmr

@@ -1,0 +1,9 @@
+
+select * from lc_balance30092016 
+where LoanNo in 
+	(select LoanNo from lc_balance30092016 where [Cash Out] is not null group by LoanNo having count(1)>1)
+	and [Cash Out] is not null
+order by LoanNo
+
+
+they are not exact duplicates, some fields are different, such as viechal details or address...

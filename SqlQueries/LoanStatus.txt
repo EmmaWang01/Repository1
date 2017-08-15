@@ -1,0 +1,50 @@
+CASE 
+					WHEN reverse(left(reverse(XSU_Detail), isnull(charindex('\', reverse(XSU_Detail)) - 1, 0))) IN (
+							'Current'
+							,'Arrears - Special Arrangement'
+							,'Arrears - Arrears Letter'
+							,'Arrears - Hardship'
+							,'Arrears - Hold'
+							,'Arrears - Payment Plan'
+							,'Payment Plan'
+							)
+						THEN 'Active'
+					WHEN reverse(left(reverse(XSU_Detail), isnull(charindex('\', reverse(XSU_Detail)) - 1, 0))) IN (
+							'Discharged - Paid in full early discount'
+							,'Discharged - Paid in Full'
+							,'Discharged - Negotiated payout'
+							,'Discharged - Written Off'
+							)
+						THEN 'Settled'
+					WHEN reverse(left(reverse(XSU_Detail), isnull(charindex('\', reverse(XSU_Detail)) - 1, 0))) IN (
+							'Application - Application Cancelled'
+							,'Application - Withdrawn/Cancelled'
+							,'Application - Expired Application'
+							)
+						THEN 'Cancelled'
+					WHEN reverse(left(reverse(XSU_Detail), isnull(charindex('\', reverse(XSU_Detail)) - 1, 0))) IN (
+							'Part IX'
+							,'Bankrupt'
+							)
+						THEN 'Collections'
+					WHEN reverse(left(reverse(XSU_Detail), isnull(charindex('\', reverse(XSU_Detail)) - 1, 0))) IN (
+							'Application - Unsuccessful'
+							,'Application - Unsuccessful - Reason to be reviewed'
+							)
+						THEN 'Declined'
+					WHEN reverse(left(reverse(XSU_Detail), isnull(charindex('\', reverse(XSU_Detail)) - 1, 0))) IN (
+							'Arrears - Default'
+							,'Arrears - Recoveries'
+							)
+						THEN 'BadDebt'
+					WHEN reverse(left(reverse(XSU_Detail), isnull(charindex('\', reverse(XSU_Detail)) - 1, 0))) IN (
+							'Application - Pre Approved'
+							,'Application - Application Approved'
+							,'Application - Awaiting Further Documents'
+							,'Application - Awaiting Emp/Rental'
+							,'Application - Application Received'
+							,'Application - Incomplete Application'
+							,'Application'
+							,'Application - Redirect'
+							)
+						THEN 'WIP'
