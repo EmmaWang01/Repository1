@@ -1,0 +1,5 @@
+to use tempdb table
+
+
+set nocount on
+SET ANSI_WARNINGS OFF
