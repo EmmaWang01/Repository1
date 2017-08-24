@@ -1,0 +1,551 @@
+CREATE MEASURE 'Transaction'[Number of Successful Payments] = [Number of Payments] - [Dishonours] 
+;
+
+CREATE MEASURE 'Transaction'[Number of Payments] =
+    CALCULATE (
+        COUNTA ( [Credit] ),
+        TransactionType[IsReversal] = "Transaction",
+        TransactionType[TransactionTypeSubGroup] = "Repayment"
+            || TransactionType[TransactionTypeSubGroup] = "Repayment - Bpay"
+            || TransactionType[TransactionTypeSubGroup] = "Repayment - Cash"
+            || TransactionType[TransactionTypeSubGroup] = "Repayment - Direct Debit"
+            || TransactionType[TransactionTypeSubGroup] = "Repayment - Direct Credit"
+            || TransactionType[TransactionTypeSubGroup] = "Repayment - Salary"
+    )
+        - CALCULATE (
+            COUNTA ( Reversals[Debit] ),
+            TransactionType[TransactionTypeSubGroup] = "Repayment"
+                || TransactionType[TransactionTypeSubGroup] = "Repayment - Bpay"
+                || TransactionType[TransactionTypeSubGroup] = "Repayment - Cash"
+                || TransactionType[TransactionTypeSubGroup] = "Repayment - Direct Debit"
+                || TransactionType[TransactionTypeSubGroup] = "Repayment - Direct Credit"
+                || TransactionType[TransactionTypeSubGroup] = "Repayment - Salary"
+        ) 
+;
+
+CREATE MEASURE 'Transaction'[Percentage of Successful Payments] = [Number of Successful Payments] / [Number of Payments]
+CALCULATION PROPERTY PERCENTAGE
+    ACCURACY = 2
+    FORMAT = '0.00%;-0.00%;0.00%'
+;
+
+CREATE MEASURE 'Transaction'[NAF] =
+    CALCULATE (
+        SUM ( [DebitLessCredit] ),
+        TransactionType[IsReversal] = "Transaction",
+        'TransactionType'[Transactions] = "Money3\Commission\Commission Paid - Internal"
+            || 'TransactionType'[Transactions]
+            = "Money3\Commission\Commission Paid - Direct Credit"
+            || 'TransactionType'[Transactions] = "Money3\Commission\Commission Paid - Cheque"
+            || 'TransactionType'[Transactions] = "Money3\Fee\Loan\Establishment Fee"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Loan Termination Insurance"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Equity Plus Insurance"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Comprehensive Insurance"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Loan Protection"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Marine Warranty"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Complete Car Care Cover"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Fire And Theft"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Total Assist"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Consumer Credit Insurance"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Tyre"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Purchase Price Protection"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Cash Benefit"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Third Party Fire And Theft"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\GAP/Equity Insurance"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Third Party"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Extended Warranty"
+            || 'TransactionType'[Transactions] = "Money3\Insurance\Walkaway Insurance"
+            || 'TransactionType'[Transactions] = "Money3\Disbursement\BPay"
+            || 'TransactionType'[Transactions] = "Money3\Disbursement\Cash Deferred"
+            || 'TransactionType'[Transactions] = "Money3\Disbursement\Cash Disbursement"
+            || 'TransactionType'[Transactions] = "Money3\Disbursement\Cheque"
+            || 'TransactionType'[Transactions] = "Money3\Disbursement\Direct Credit"
+            || 'TransactionType'[Transactions] = "Money3\Disbursement\Initial Rental Amount"
+            || 'TransactionType'[Transactions] = "Money3\Fee\Loan\Application Fee"
+            || 'TransactionType'[Transactions] = "Money3\Fee\LOC\Application Fee"
+            || 'TransactionType'[Transactions] = "Money3\Fee\Loan\Monthly Fee"
+            || 'TransactionType'[Transactions] = "Money3\Fee\Loan\Credit Fee"
+            || 'TransactionType'[Transactions] = "Money3\Fee\LOC\Credit Fee"
+    )
+        + CALCULATE (
+            SUM ( Reversals[DebitLessCredit] ),
+            'TransactionType'[Transactions] = "Money3\Commission\Commission Paid - Internal"
+                || 'TransactionType'[Transactions]
+                = "Money3\Commission\Commission Paid - Direct Credit"
+                || 'TransactionType'[Transactions] = "Money3\Commission\Commission Paid - Cheque"
+                || 'TransactionType'[Transactions] = "Money3\Fee\Loan\Establishment Fee"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Loan Termination Insurance"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Equity Plus Insurance"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Comprehensive Insurance"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Loan Protection"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Marine Warranty"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Complete Car Care Cover"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Fire And Theft"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Total Assist"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Consumer Credit Insurance"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Tyre"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Purchase Price Protection"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Cash Benefit"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Third Party Fire And Theft"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\GAP/Equity Insurance"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Third Party"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Extended Warranty"
+                || 'TransactionType'[Transactions] = "Money3\Insurance\Walkaway Insurance"
+                || 'TransactionType'[Transactions] = "Money3\Disbursement\BPay"
+                || 'TransactionType'[Transactions] = "Money3\Disbursement\Cash Deferred"
+                || 'TransactionType'[Transactions] = "Money3\Disbursement\Cash Disbursement"
+                || 'TransactionType'[Transactions] = "Money3\Disbursement\Cheque"
+                || 'TransactionType'[Transactions] = "Money3\Disbursement\Direct Credit"
+                || 'TransactionType'[Transactions] = "Money3\Disbursement\Initial Rental Amount"
+                || 'TransactionType'[Transactions] = "Money3\Fee\Loan\Application Fee"
+                || 'TransactionType'[Transactions] = "Money3\Fee\LOC\Application Fee"
+                || 'TransactionType'[Transactions] = "Money3\Fee\Loan\Monthly Fee"
+                || 'TransactionType'[Transactions] = "Money3\Fee\Loan\Credit Fee"
+                || 'TransactionType'[Transactions] = "Money3\Fee\LOC\Credit Fee"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Reference'[Reference Count] =
+    COUNTA ( [ReferenceCount] ) 
+;
+
+CREATE MEASURE 'Transaction'[Credit Amount_Less Reversals] =
+    SUM ( 'Transaction'[Credit] ) - SUM ( 'Reversals'[Debit] ) 
+;
+
+CREATE MEASURE 'Transaction'[Debit Amount_Less Reversals] =
+    SUM ( 'Transaction'[Debit] ) - SUM ( 'Reversals'[Credit] ) 
+;
+
+CREATE MEASURE 'Transaction'[Total Amount_Less Reversals] =
+    SUM ( 'Reversals'[Debit] ) + SUM ( 'Reversals'[Credit] ) 
+;
+
+CREATE MEASURE 'Transaction'[Cash In Via Direct Debit] =
+    CALCULATE (
+        SUM ( [Credit] ),
+        TransactionType[TransactionTypeSubGroup] = "Repayment - Direct Debit",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        - CALCULATE (
+            SUM ( Reversals[Debit] ),
+            TransactionType[TransactionTypeSubGroup] = "Repayment - Direct Debit"
+        ) 
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Cash In Via Cash Payment] =
+    CALCULATE (
+        SUM ( [CreditLessDebit] ),
+        'TransactionType'[TransactionName] = "Payment Cash",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        - CALCULATE (
+            SUM ( Reversals[CreditLessDebit] ),
+            TransactionType[TransactionTypeSubGroup] = "Payment Cash"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Establishment Fee] =
+    CALCULATE (
+        SUM ( [DebitLessCredit] ),
+        'TransactionType'[TransactionName] = "Establishment Fee",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        + CALCULATE (
+            SUM ( Reversals[DebitLessCredit] ),
+            'TransactionType'[TransactionName] = "Establishment Fee"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Application Fee] =
+    CALCULATE (
+        SUM ( [DebitLessCredit] ),
+        'TransactionType'[TransactionName] = "Application Fee",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        + CALCULATE (
+            SUM ( Reversals[DebitLessCredit] ),
+            'TransactionType'[TransactionName] = "Application Fee"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Additional Monthly Fee] =
+    CALCULATE (
+        SUM ( [DebitLessCredit] ),
+        'TransactionType'[TransactionName] = "Additional Monthly Fees",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        + CALCULATE (
+            SUM ( Reversals[DebitLessCredit] ),
+            'TransactionType'[TransactionName] = "Additional Monthly Fees"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Dishonour Fee] =
+    CALCULATE (
+        SUM ( [DebitLessCredit] ),
+        'TransactionType'[TransactionName] = "Dishonour Fee",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        + CALCULATE (
+            SUM ( Reversals[DebitLessCredit] ),
+            'TransactionType'[TransactionName] = "Dishonour Fee"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Monthly Fee] =
+    CALCULATE (
+        SUM ( [DebitLessCredit] ),
+        'TransactionType'[TransactionName] = "Monthly Fee",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        + CALCULATE (
+            SUM ( Reversals[DebitLessCredit] ),
+            'TransactionType'[TransactionName] = "Monthly Fee"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Default Fee] =
+    CALCULATE (
+        SUM ( [DebitLessCredit] ),
+        'TransactionType'[TransactionName] = "Default Fee",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        + CALCULATE (
+            SUM ( Reversals[DebitLessCredit] ),
+            'TransactionType'[TransactionName] = "Default Fee"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[ERD Discount] =
+    CALCULATE (
+        SUM ( [DebitLessCredit] ),
+        'TransactionType'[TransactionName] = "ERD Discount",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        + CALCULATE (
+            SUM ( Reversals[DebitLessCredit] ),
+            'TransactionType'[TransactionName] = "ERD Discount"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Insurance Out] =
+    CALCULATE (
+        SUM ( [DebitLessCredit] ),
+        'TransactionType'[TransactionGroup] = "Insurance",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        + CALCULATE (
+            SUM ( Reversals[DebitLessCredit] ),
+            'TransactionType'[TransactionGroup] = "Insurance"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Broker Fee] =
+    CALCULATE (
+        SUM ( [DebitLessCredit] ),
+        'TransactionType'[TransactionGroup] = "Commission",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        + CALCULATE (
+            SUM ( Reversals[DebitLessCredit] ),
+            'TransactionType'[TransactionGroup] = "Commission"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Cash In Total] =
+    CALCULATE (
+        SUM ( 'Transaction'[CreditLessDebit] ),
+        TransactionType[TransactionGroup] = "Cash in",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        - CALCULATE (
+            SUM ( 'Reversals'[CreditLessDebit] ),
+            TransactionType[TransactionGroup] = "Cash in"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Dishonours] =
+    CALCULATE (
+        COUNT ( [Debit] ),
+        TransactionType[TransactionTypeSubGroup] = "Dishonour",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        - CALCULATE (
+            COUNT ( [Credit] ),
+            TransactionType[TransactionTypeSubGroup] = "Dishonour"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Transaction'[Credit Fee] =
+    CALCULATE (
+        SUM ( [DebitLessCredit] ),
+        'TransactionType'[TransactionName] = "Credit Fee",
+        TransactionType[IsReversal] = "Transaction"
+    )
+        + CALCULATE (
+            SUM ( Reversals[DebitLessCredit] ),
+            'TransactionType'[TransactionName] = "Credit Fee"
+        )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'Reversals'[Temp] = 1 
+;
+
+CREATE MEASURE 'LoanSnapshot'[Application Amt] =
+    SUM ( [ApplicationAmount] )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Cash Out Amt] =
+    SUM ( [Cash_Out] )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Est Monthly Account Fees Amt] =
+    SUM ( [Estimated_Monthly_AccountFees] )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Est Interest Amt] =
+    SUM ( [Estimated_Interest] )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Income Amt] =
+    SUM ( [Income] )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Expenses Amt] =
+    SUM ( [Expenses] )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Avg Approval Duration (Days)] =
+    AVERAGE ( [ApprovalDurationDays] )
+CALCULATION PROPERTY NUMBERDECIMAL
+    ACCURACY = 2
+    FORMAT = '0.00'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Avg Decline Duration (Days)] =
+    AVERAGE ( [DeclineDurationDays] )
+CALCULATION PROPERTY NUMBERDECIMAL
+    ACCURACY = 2
+    FORMAT = '0.00'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Avg  BadDebt Duration (Days)] =
+    AVERAGE ( [BadDebtDurationDays] )
+CALCULATION PROPERTY NUMBERDECIMAL
+    ACCURACY = 2
+    FORMAT = '0.00'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Avg Settlement Duration (Days)] =
+    AVERAGE ( [SettlementDurationDays] )
+CALCULATION PROPERTY NUMBERDECIMAL
+    ACCURACY = 2
+    FORMAT = '0.00'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Avg Discharge Duration (Days)] =
+    AVERAGE ( [DischargeDurationDays] )
+CALCULATION PROPERTY NUMBERDECIMAL
+    ACCURACY = 2
+    FORMAT = '0.00'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Count of Loans] =
+    COUNTROWS ( LoanSnapshot ) 
+;
+
+CREATE MEASURE 'LoanSnapshot'[Settled Loans Count] =
+    CALCULATE (
+        [Count of Loans],
+        USERELATIONSHIP ( Calendar[Calendar_sKey], LoanSnapshot[Settlement_Date_sKey] )
+    ) 
+;
+
+CREATE MEASURE 'LoanSnapshot'[Avg Cash Out Amt] =
+    AVERAGE ( [Cash_Out] )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Avg Cash Out (Settled)] =
+    CALCULATE (
+        [Avg Cash Out Amt],
+        USERELATIONSHIP ( Calendar[Calendar_sKey], LoanSnapshot[Settlement_Date_sKey] )
+    )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Avg Income Amt] =
+    AVERAGE ( [Income] )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Avg Expenses Amt] =
+    AVERAGE ( [Expenses] )
+CALCULATION PROPERTY CURRENCY
+    ACCURACY = 2
+    THOUSANDSEPARATOR = True
+    FORMAT = '\$#,0.00;-\$#,0.00;\$#,0.00'
+    ADDITIONALINFO = 'LCID="3081" DisplayName="$ English (Australia)" Symbol="$" PositivePattern="0" NegativePattern="1"'
+;
+
+CREATE MEASURE 'LoanSnapshot'[New Customer Avg Loan Amt] =
+    CALCULATE ( [Avg Cash Out Amt], Loan[IsNewCustomer] = "Is New Customer" ) 
+;
+
+CREATE MEASURE 'LoanSnapshot'[Existing Customer Avg Loan Amt] =
+    CALCULATE ( [Avg Cash Out Amt], Loan[IsNewCustomer] = "Existing Customer" ) 
+;
+
+CREATE MEASURE 'LoanSnapshot'[New Customer Settled Loans Count] =
+    CALCULATE ( [Settled Loans Count], Loan[IsNewCustomer] = "Is New Customer" ) 
+;
+
+CREATE MEASURE 'LoanSnapshot'[Existing Customer Settled Loans Count] =
+    CALCULATE ( [Settled Loans Count], Loan[IsNewCustomer] = "Existing Customer" ) 
+;
+
+CREATE MEASURE 'LoanSnapshot'[New Customer Loans Count] =
+    CALCULATE ( [Count of Loans], Loan[IsNewCustomer] = "Is New Customer" )
+CALCULATION PROPERTY GENERAL
+    VISIBLE = False
+;
+
+CREATE MEASURE 'LoanSnapshot'[New Customer Loan Count v. Total Loan Count] = [New Customer Loans Count] / [Count of Loans]
+CALCULATION PROPERTY PERCENTAGE
+    ACCURACY = 2
+    FORMAT = '0.00%;-0.00%;0.00%'
+;
+
+CREATE MEASURE 'LoanSnapshot'[Declined Loans Count] =
+    CALCULATE (
+        [Count of Loans],
+        USERELATIONSHIP ( Calendar[Calendar_sKey], LoanSnapshot[Declined_Date_sKey] )
+    ) 
+;
+
+CREATE MEASURE 'LoanSnapshot'[New Customer Declined Loans Count] =
+    CALCULATE ( [Declined Loans Count], Loan[IsNewCustomer] = "Is New Customer" ) 
+;
+
+CREATE MEASURE 'LoanSnapshot'[Existing Customer Declined Loans Count] =
+    CALCULATE ( [Declined Loans Count], Loan[IsNewCustomer] = "Existing Customer" ) 
+;
+
+CREATE MEASURE 'LoanSnapshot'[Declined Loan Count v. Total Loan Count] = [Declined Loans Count] / [Count of Loans]
+CALCULATION PROPERTY PERCENTAGE
+    ACCURACY = 2
+    FORMAT = '0.00%;-0.00%;0.00%'
+;
+
+

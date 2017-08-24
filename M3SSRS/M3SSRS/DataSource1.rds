@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataSource1">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=m3-db03;Initial Catalog=M3_MAIN</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>2e79cc91-cece-4db2-b11a-047100148748</DataSourceID>
+</RptDataSource>

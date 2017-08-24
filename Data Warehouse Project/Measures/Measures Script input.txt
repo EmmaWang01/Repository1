@@ -1,0 +1,33 @@
+[Cash In Via Direct Debit]
+
+CALCULATE( SUM[CreditLessDebit]
+
+
+
+
+--------------------------
+[Number of Payments]
+
+CREATE MEASURE 'Transaction'[Number of Payments] =
+    CALCULATE (
+        COUNTA ( [Credit] ),
+        TransactionType[IsReversal] = "Transaction",
+         TransactionType[TransactionTypeSubGroup] = "Repayment" --remove
+	TransactionType[TransactionTypeSubGroup] = "Repayment - Cheque"
+            || TransactionType[TransactionTypeSubGroup] = "Repayment - Bpay"
+            || TransactionType[TransactionTypeSubGroup] = "Repayment - Cash"
+            || TransactionType[TransactionTypeSubGroup] = "Repayment - Direct Debit"
+            || TransactionType[TransactionTypeSubGroup] = "Repayment - Direct Credit"
+            || TransactionType[TransactionTypeSubGroup] = "Repayment - Salary"
+    )
+        - CALCULATE (
+            COUNTA ( Reversals[Debit] ),
+           	 TransactionType[TransactionTypeSubGroup] = "Repayment" --remove
+		TransactionType[TransactionTypeSubGroup] = "Repayment - Cheque"
+                || TransactionType[TransactionTypeSubGroup] = "Repayment - Bpay"
+                || TransactionType[TransactionTypeSubGroup] = "Repayment - Cash"
+                || TransactionType[TransactionTypeSubGroup] = "Repayment - Direct Debit"
+                || TransactionType[TransactionTypeSubGroup] = "Repayment - Direct Credit"
+                || TransactionType[TransactionTypeSubGroup] = "Repayment - Salary"
+        ) 
+;

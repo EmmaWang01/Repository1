@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>SELECT DISTINCT iO_Client_MasterReference.CMR_ID, iO_Link_MasterReference.LMR_IDLink_Association, iO_Client_MasterReference.CMR_Name
+FROM            iO_Link_MasterReference with(nolock) INNER JOIN
+                         iO_Client_MasterReference with(nolock) ON iO_Link_MasterReference.LMR_IDLink_CMR = iO_Client_MasterReference.CMR_ID AND 
+                         iO_Link_MasterReference.LMR_IDLink_Association = '{b55145aa-2697-43b5-9c6a-c4a0960823d8}' AND iO_Client_MasterReference.CMR_Name IS NOT NULL
+ORDER BY iO_Client_MasterReference.CMR_Name</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="CMR_ID">
+        <DataField>CMR_ID</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="LMR_IDLink_Association">
+        <DataField>LMR_IDLink_Association</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CMR_Name">
+        <DataField>CMR_Name</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

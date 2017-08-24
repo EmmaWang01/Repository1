@@ -1,0 +1,194 @@
+TransactionTypeID,Transaction,TransactionCompany,TransactionGroup,TransactionTypeGroup,TransactionTypeSubGroup,TransactionName,Additive,IsReversal
+{d4acf53c-e9e7-446b-8652-207166685e1a},Money3\Cheque Cashing\Cheque Total Amount,Money3,Cheque Cashing ,Cheque Cashing,Cheque Total Amount,Cheque Cashing AMT,1,Transaction
+{4ebe6dff-e539-4da3-9177-e0ad340f2c5b},Money3\Cheque Cashing\Fee,Money3,Cheque Cashing ,Cheque Cashing,Fee,Cheque Cashing - Fee,1,Transaction
+{520934ac-5bd5-4e45-a58e-3105edb2ced9},Money3\Commission\Commission Paid - Direct Credit,Money3,Commission,Commission,Commission Paid - Direct Credit,Commission Paid - Direct Credit,1,Transaction
+{18d5d62b-66e2-4e2c-96d8-d8cd49ff256c},Money3\Commission\Commission Paid - Internal,Money3,Commission,Commission,Commission Paid - Internal,Commission Paid - Internal,1,Transaction
+{29e08def-b241-4111-a9d0-0d463d8ce4c7},Money3\Commission\Reversal\Commission Paid - Direct Credit,Money3,Commission,Commission,Reversal,Commission Paid - Direct Credit,1,Reversal
+{c71def8a-f18a-46d1-8650-94b2db4731b9},Money3\Disbursement\BPay,Money3,Cash Out,Disbursement,BPay,Disbursement BPay,1,Transaction
+{175097b2-f5b8-453f-933e-22b136b5badb},Money3\Disbursement\Cash Deferred,Money3,Cash Out,Disbursement,Cash Deferred,Disbursement Cash Deferred,1,Transaction
+{aba6a0b0-7a7f-4ef0-9176-ac5c6afa983c},Money3\Disbursement\Cash Disbursement,Money3,Cash Out,Disbursement,Cash Disbursement,Disbursement Cash Disbursement,1,Transaction
+{55f13b88-c58a-4080-b1ac-3e34f60d0f46},Money3\Disbursement\Cash Disbursement - $50 for Free,Money3,Cash Out,Disbursement,Cash Disbursement - $50 for Free,Disbursement Cash Disbursement - $50 for Free,0,Transaction
+{4fbe3466-0c1b-4b48-b755-fc6b650ecbe8},Money3\Disbursement\Cheque,Money3,Cash Out,Disbursement,Cheque,Disbursement Cheque,1,Transaction
+{71b22e14-385f-45a8-a389-36559632ff65},Money3\Disbursement\Direct Credit,Money3,Cash Out,Disbursement,Direct Credit,Disbursement Direct Credit,1,Transaction
+{755f7320-b81c-4268-aa94-38802e51505f},Money3\Disbursement\Reversal\BPay Payment - Reversal,Money3,Cash Out,Disbursement,Reversal,BPay Payment - Reversal,1,Reversal
+{0f57a357-5888-4946-a857-f568ab18042e},Money3\Disbursement\Reversal\Cash Now Payment - Reversal,Money3,Cash Out,Disbursement,Reversal,Cash Now Payment - Reversal,1,Reversal
+{b7ec81a0-9aac-4261-b8f5-7f8f42920abe},Money3\Disbursement\Reversal\Cheque Total Amount - Reversal,Money3,Cash Out,Disbursement,Reversal,Cheque Total Amount - Reversal,1,Reversal
+{4b1b5721-c264-4daf-866a-9dc4d04517b8},Money3\Disbursement\Reversal\Direct Credit - Reversal,Money3,Cash Out,Disbursement,Reversal,Direct Credit - Reversal,1,Reversal
+{7c9ab385-4985-45ad-87e2-19af9f3d6478},Money3\Discharge\Discharge Disbursement\Cash,Money3,Cash In,Discharge,Repayment - Cash,Payment - Cash,1,Transaction
+{968fefb0-adc6-4512-8f83-9d8fda90b039},Money3\Discharge\Discharge Disbursement\Direct Credit,Money3,Cash In,Discharge,Repayment - Direct Credit,Direct Credit,1,Transaction
+{857a90f4-efa8-4c9f-abbf-19b7057a7b79},Money3\Discharge\Discharge Payment\BPay,Money3,Cash In,Discharge,Repayment - Bpay,BPay,1,Transaction
+{88d368ae-d2e3-4db4-9880-3de434f3b542},Money3\Discharge\Discharge Payment\Cash,Money3,Cash In,Discharge,Repayment - Cash,Payment - Cash,1,Transaction
+{8b80a451-3d1a-4097-81ea-959dd2f0d8f6},Money3\Discharge\Discharge Payment\Cheque,Money3,Cash In,Discharge,Repayment - Cheque,Cheque,1,Transaction
+{dc2c3e2a-1594-4058-b10f-73627855f28a},Money3\Discharge\Discharge Payment\Direct Credit,Money3,Cash In,Discharge,Repayment - Direct Credit,Direct Credit,1,Transaction
+{9251d213-46b3-4ffe-a59e-675bc7ed8258},Money3\Discharge\Discharge Payment\Direct Debit,Money3,Cash In,Discharge,Repayment - Direct Debit,Direct Debit,1,Transaction
+{68c8f71b-ea09-4110-82ed-eb9915b5ccb1},Money3\Discharge\Reversal\Discharge - Refund,Money3,Cash In,Discharge,Discharge Reversal,Discharge - Refund,1,Reversal
+{1104086a-e625-48df-9c8a-24723dfad80e},Money3\Discharge\Reversal\Discharge Fee - Reversal,Money3,Loan fee,Fee,Discharge Reversal,Discharge Fee - Reversal,1,Reversal
+{2b59edef-b7fa-4033-a477-033ae9da122d},Money3\Discharge\Reversal\Discharge Payment - Reversal,Money3,Cash In,Discharge,Discharge Reversal,Discharge Payment - Reversal,1,Reversal
+{64bfbad8-5744-4b8c-85ae-3c021394b882},Money3\Fee\Deferred Establishment Fee - No Interest,Money3,Loan fee,Fee,Deferred Establishment Fee - No Interest,Deferred Establishment Fee - No Interest,0,Transaction
+{7e7ca54a-fc0b-4c33-a150-bcfc35da672d},Money3\Fee\Discharge\Deferred Establishment Fee,Money3,Loan fee,Fee,Discharge,Deferred Establishment Fee,1,Transaction
+{5ac40e94-da5c-46b9-8387-40c6ef458554},Money3\Fee\Discharge\Deferred Fee - Reversal,Money3,Loan fee,Fee,Discharge,Deferred Fee - Reversal,1,Reversal
+{a3a31f33-534a-4755-8abe-2dd8d3a73e35},Money3\Fee\Discharge\Discharge Fee,Money3,Loan fee,Fee,Discharge,Discharge Fee,1,Transaction
+{ffe5fc6b-64ce-42c0-9236-bfcb0c8f02d9},Money3\Fee\Discharge\Discount on Full Dischage,Money3,Waive,Fee,Discharge,Discount on Full Dischage,1,Transaction
+{14289cfe-36db-411d-a4b7-5b7b1a2b5d1d},Money3\Fee\Discharge\Discount on Full Discharge - Reversal,Money3,Waive,Fee,Discharge,Discount on Full Discharge - Reversal,1,Reversal
+{ca79a319-7f18-4b98-9033-b8ca3beb3ef3},Money3\Fee\Discharge\Negotiated Payout on Discharge,Money3,Waive,Fee,Discharge,Negotiated Payout on Discharge,1,Transaction
+{ee9ffc6e-0bbb-4c7d-bce5-228e0f3f9c9c},Money3\Fee\Loan\Additional Monthly Fees,Money3,Loan fee,Fee,Loan,Additional Monthly Fees,1,Transaction
+{7b4ea91e-c309-43f2-b890-5c252be34ae4},Money3\Fee\Loan\Application Fee,Money3,Loan fee,Fee,Loan,Application Fee,1,Transaction
+{438a59aa-1d0a-48cf-a55a-6abd2807eed1},Money3\Fee\Loan\Arrears Letter Fee,Money3,Penalties,Fee,Loan,Arrears Letter Fee,1,Transaction
+{5d85970a-fcd2-4e44-8367-8e7c85f90f30},Money3\Fee\Loan\Arrears Letter Fee - New,Money3,Penalties,Fee,Loan,Arrears Letter Fee - New,1,Transaction
+{53df8e13-3cca-4c0d-a682-9015181fa860},Money3\Fee\Loan\Caveat Fee,Money3,Loan fee,Fee,Loan,Caveat Fee,1,Transaction
+{7e4dc81d-b294-4d73-8fbb-f43aa564f8bd},Money3\Fee\Loan\Credit Fee,Money3,Loan fee,Fee,Loan,Credit Fee,1,Transaction
+{f37874ea-230b-4795-b6bb-fff27bda2b2f},Money3\Fee\Loan\Default Fee,Money3,Penalties,Fee,Loan,Default Fee,1,Transaction
+{798f3a7c-3d4c-4aeb-8b3c-1e295b5b9b55},Money3\Fee\Loan\Dishonour Fee (NSF) - Loan,Money3,Penalties,Fee,Loan,Dishonour Fee (NSF) - Loan,1,Transaction
+{13981284-b6e9-4eaa-b31e-9d33287e2b12},Money3\Fee\Loan\Monthly Account Fee,Money3,Loan fee,Fee,Loan,Monthly Account Fee,1,Transaction
+{ea33d505-c29c-4afa-9018-303ac7a7ab89},Money3\Fee\Loan\Monthly Fee,Money3,Loan fee,Fee,Loan,Monthly Fee,1,Transaction
+{ce88d442-c040-4d3b-8929-7a34b7c65b29},Money3\Fee\Loan\Non Payment Fee  - Loan,Money3,Penalties,Fee,Loan,Non Payment Fee - Loan,1,Transaction
+{15df6716-e868-445c-b242-a9045263a625},Money3\Fee\Loan\Non Payment Fee  - Loan New,Money3,Penalties,Fee,Loan,Non Payment Fee - Loan New,1,Transaction
+{524db6fd-1c71-47ab-9c8f-1d1841f05a29},Money3\Fee\Loan\Reschedule Fee,Money3,Penalties,Fee,Loan,Reschedule Fee,1,Transaction
+{b8f7bbf0-92bf-4f32-9ce3-c9e1283b4077},Money3\Fee\Loan\TotalLACCFees,Money3,Loan fee,Fee,Loan,TotalLACCFees,1,Transaction
+{5146d224-dac4-41e4-93e3-38f13abf388f},Money3\Fee\Loan\TotalMonthyFees,Money3,Loan fee,Fee,Loan,TotalMonthyFees,1,Transaction
+{6a745a95-fe3e-4a69-8fb3-204be5a0c7a4},Money3\Fee\Loan\Variation Default Fee,Money3,Penalties,Fee,Loan,Variation Default Fee,1,Transaction
+{66fccdf2-8609-4402-b55c-3c5026eacaa6},Money3\Fee\Loan\Variation Fee,Money3,Penalties,Fee,Loan,Variation Fee,1,Transaction
+{e2d6802b-a89c-484e-8c9d-cda0c9a268f3},Money3\Fee\LOC\Application Fee,Money3,LOC Fee,Fee,LOC,Application Fee,1,Transaction
+{bf8c8181-dc96-4e7e-8f2d-c1034c07822c},Money3\Fee\LOC\Arrears Fee - New,Money3,Penalties,Fee,LOC,Arrears Fee - New,1,Transaction
+{929f0b0e-8777-40b8-84fb-868d4ba0d971},Money3\Fee\LOC\Credit Fee,Money3,LOC Fee,Fee,LOC,Credit Fee,1,Transaction
+{a951a02c-9b8b-4564-995b-5225c5085f6b},Money3\Fee\LOC\Default Fee,Money3,Penalties,Fee,LOC,Default Fee,1,Transaction
+{8e18b754-8b9d-4142-a018-cfca7b4082cf},Money3\Fee\LOC\Dishonour Fee,Money3,Penalties,Fee,LOC,Dishonour Fee,1,Transaction
+{c6bb3791-3d10-407c-a8ff-f58cb4a445be},Money3\Fee\LOC\Dishonour Fee (NSF) - LOC,Money3,Penalties,Fee,LOC,Dishonour Fee (NSF) - LOC,1,Transaction
+{4ef265f0-8346-4a84-a2b7-a90a68f217b9},Money3\Fee\LOC\Drawdown Fee,Money3,LOC Fee,Fee,LOC,Drawdown Fee,1,Transaction
+{8da9b6a5-78f6-4036-904e-508a11b6df37},Money3\Fee\LOC\Non Payment Fee - LOC,Money3,Penalties,Fee,LOC,Non Payment Fee - LOC,1,Transaction
+{6c0aa92f-83a8-4bad-b163-827e7dd3e54f},Money3\Fee\LOC\Variation Default Fee,Money3,Penalties,Fee,LOC,Variation Default Fee,1,Transaction
+{e1aea824-6817-4d4e-9d12-60ebbfa11a0d},Money3\Fee\Merchant Agent Fee,Money3,Loan fee,Fee,Merchant Agent Fee,Merchant Agent Fee,1,Transaction
+{03bb7dca-c55b-48ac-ba95-adaa9b6abef7},Money3\Fee\Reversal\Arrears Letter Fee - Reversal,Money3,Penalties,Fee,Reversal,Arrears Letter Fee - Reversal,1,Reversal
+{f582460b-ef6f-483a-8b97-38c77a5104ae},Money3\Fee\Reversal\Broker  Fee - Reversal,Money3,Loan fee,Fee,Reversal,Broker Fee - Reversal,1,Reversal
+{69cfc107-d20b-479a-ab90-e22b8afed193},Money3\Fee\Reversal\Default Fee - Reversal,Money3,Penalties,Fee,Reversal,Default Fee - Reversal,1,Reversal
+{c8aa803e-1d05-4933-916c-24be6f3f719c},Money3\Fee\Reversal\Deferred Establishment Fee - No Interest - REVERSAL,Money3,Loan fee,Fee,Reversal,Deferred Establishment Fee - No Interest - REVERSAL,1,Reversal
+{3e8fbdc3-2992-4805-9738-27acf8d914f0},Money3\Fee\Reversal\Dishonour Fee - Reversal,Money3,Penalties,Fee,Reversal,Dishonour Fee - Reversal,1,Reversal
+{9c390b4f-08ea-49dc-aadc-405aab12f414},Money3\Fee\Reversal\Drawdown Fee - Reversal,Money3,LOC Fee,Fee,Reversal,Drawdown Fee - Reversal,1,Reversal
+{1f801a03-73e7-418f-b0d5-662c155e701d},Money3\Fee\Reversal\Loan\Application Fee - Reversal,Money3,Loan fee,Fee,Reversal,Application Fee - Reversal,1,Reversal
+{081027da-daf9-4833-9d9b-19f0f191fa63},Money3\Fee\Reversal\Loan\Merchant Agent Fee - Reversal,Money3,Loan fee,Fee,Reversal,Loan,1,Reversal
+{b6cfa163-883c-45f6-96bf-6a074aaf011f},Money3\Fee\Reversal\Loan\Monthly Account Fee - Reversal,Money3,Loan fee,Fee,Reversal,Loan,1,Reversal
+{349dea8e-4339-4f84-9e5a-5e69a2635f58},Money3\Fee\Reversal\Loan\Special Fee - Reversal,Money3,Loan fee,Fee,Reversal,Loan,1,Reversal
+{a05b64c4-e2cb-4d3c-bac0-b3c7bf87960e},Money3\Fee\Reversal\LOC\Application Fee - Reversal,Money3,LOC Fee,Fee,Reversal,Application Fee - Reversal,1,Reversal
+{32e3c11b-4d29-4dd6-bd99-c94fdfeb2c3e},Money3\Fee\Reversal\MonthlyFees,Money3,Loan fee,Fee,Reversal,Monthly Fee,1,Reversal
+{0d406cd5-ec72-4e40-b25f-0eee5f0c076d},Money3\Fee\Reversal\Non Payment Fee - Reversal,Money3,Penalties,Fee,Reversal,Non Payment Fee - Reversal,1,Reversal
+{3a468fb5-8678-44d0-af55-98a76f777476},Money3\Fee\Reversal\OtherCreditFees,Money3,LOC Fee,Fee,Reversal,OtherCreditFees,1,Reversal
+{731d607a-5ec9-4032-afc6-218a7f3c74eb},Money3\Fee\Reversal\Reschedule Fee - Reversal,Money3,Penalties,Fee,Reversal,Reschedule Fee - Reversal,1,Reversal
+{31d4d71d-cbf0-4b8d-a247-fc0b801d0019},Money3\Fee\Reversal\TotalLACCFees,Money3,Loan fee,Fee,Reversal,TotalLACCFees,1,Reversal
+{ff9dce61-8c94-4bb7-bb10-d4f13d0e63fa},Money3\Fee\Reversal\TotalMonthyFees,Money3,Loan fee,Fee,Reversal,TotalMonthyFees,1,Reversal
+{4cb014ac-6a1c-45ef-8d48-b5d1ab28e6a2},Money3\Fee\Reversal\Variation Default Fee - Reversal,Money3,Penalties,Fee,Reversal,Variation Default Fee - Reversal,1,Reversal
+{20ea1c5a-3f11-42ab-94bc-2d008413ffce},Money3\Fee\Special Fee,Money3,Penalties,Fee,Special Fee,Fee Special Fee,1,Transaction
+{f66f2981-ad69-4b51-903b-a2e7eafedc8e},Money3\Fee\Waive,Money3,Waive,Fee,Waive,Fee Waive,1,Transaction
+{7586a77d-1c5b-489f-bcad-4f6cd70e23c5},Money3\Fee\Waived\Dishonour Fee Waived,Money3,Waive,Fee,Waive,Dishonour Fee Waived,1,Transaction
+{a95480c7-62f7-4147-9d58-0c4859c1dfb0},Money3\Fee\WaiveDb,Money3,Waive,Fee,Waive,Fee WaiveDb,1,Transaction
+{060c5979-653a-4cfd-89ce-d56e4e202aa8},Money3\Loan\Interest\Interest,Money3,Interest,Interest,Interest,Interest,1,Transaction
+{94f92410-c38f-457b-8f8d-c028b474787f},Money3\Loan\Interest\Interest Reversal,Money3,Interest,Interest,Interest,Interest Reversal,1,Reversal
+{0ca10d4f-b3ad-4841-96ca-73db5a8fe6c8},Money3\Loan\Interest\Penalty Interest - Loan,Money3,Penalties,Interest,Interest,Penalty Interest - Loan,1,Transaction
+{19bfaee2-b601-4077-9d6e-75589010c1f4},Money3\Loan\Payment\Broker Clawback,Money3,Cash in,Repayment,Repayment - Direct debit,Broker Clawback,1,Transaction
+{9d57bb56-d2b6-4aef-9165-dcbdfa354997},Money3\Loan\Payment\Insurance Payout,Money3,Cash in,Repayment,Repayment - Direct debit,Insurance Payout,1,Transaction
+{be317f39-30b3-4469-a80f-b7443d107391},Money3\Loan\Payment\Insurance Recall,Money3,Cash in,Repayment,Repayment - Direct debit,Insurance Recall,1,Transaction
+{3b78e2bc-412d-4e78-927a-e255975efbfd},Money3\Loan\Payment\Payment (Direct Debit) Capitalise Do not use,Money3,Cash in,Repayment,Repayment - Direct debit,Payment (Direct Debit) Capitalise Do not use,1,Transaction
+{5d21b3ef-7739-4427-85a6-70a1677786f1},Money3\Loan\Payment\Payment (Direct Debit) Capitalise Effective date next day,Money3,Cash in,Repayment,Repayment - Direct debit,Payment (Direct Debit) Capitalise Effective date next day,1,Transaction
+{b426962b-3748-4bbf-9232-92ba164dc785},Money3\Loan\Payment\Payment (Direct Debit) Capitalise next effective dates - Old,Money3,Cash in,Repayment,Repayment - Direct debit,Payment (Direct Debit) Capitalise next effective dates - Old,1,Transaction
+{77d7215b-a0ad-495a-86f5-e791f035f335},Money3\Loan\Payment\Payment (Direct Debit) Capitalise Today,Money3,Cash in,Repayment,Repayment - Direct debit,Payment (Direct Debit) Capitalise Today,1,Transaction
+{d41c76d8-b5da-4580-a368-7a9b9ad2e333},Money3\Loan\Payment\Payment - DebitCard-TransactionFee,Money3,Loan fee,Fee,Loan,Payment - DebitCard-TransactionFee,1,Transaction
+{146d1eef-8056-4171-8f02-5c4192332904},Money3\Loan\Payment\Payment - Reversal DebitCard - TransactionFee,Money3,Loan fee,Fee,Reversal,Payment - Reversal DebitCard - TransactionFee,1,Reversal
+{a8136ec2-6d41-4df2-97e2-a92baa39f139},Money3\Loan\Payment\Payment BPay,Money3,Cash in,Repayment,Repayment - Bpay,Payment BPay,1,Transaction
+{95df5a7c-ba97-45cd-a732-cf9eb4cf4fd0},Money3\Loan\Payment\Payment Cash,Money3,Cash in,Repayment,Repayment - Cash,Payment Cash,1,Transaction
+{2f97e453-ddcd-49b7-958d-e85460e5c3cf},Money3\Loan\Payment\Payment Cheque,Money3,Cash in,Repayment,Repayment - Cheque,Payment Cheque,1,Transaction
+{e1365ab7-7216-4d36-9127-8a46e6d7cb02},Money3\Loan\Payment\Payment DebitCard,Money3,Cash in,Repayment,Repayment - Bpay,Payment DebitCard,1,Transaction
+{9a77a79c-c8f7-494f-8e9f-48e304dfd652},Money3\Loan\Payment\Payment Direct Credit Recieved,Money3,Cash in,Repayment,Repayment - Direct debit,Payment Direct Credit Recieved,1,Transaction
+{7b99c226-70ee-477d-a247-5491f344862b},Money3\Loan\Payment\Payment Refinanced,Money3,Cash in,Repayment,Repayment - Direct debit,Payment Refinanced,1,Transaction
+{d96fdc0b-ea82-46c3-9982-0bc4f155935c},Money3\Loan\Payment\Payment Reversal,Money3,Cash in,Repayment,Repayment - Direct debit,Payment Reversal,1,Reversal
+{ef859b47-2820-4459-b033-4bd4d321251a},Money3\Loan\Payment\Payment Reversal - Cash,Money3,Cash in,Repayment,Repayment - Cash,Payment Reversal - Cash,1,Reversal
+{b264fbcd-976f-4328-b758-2f0f7520f0d6},Money3\Loan\Payment\Payment Reversal - DebitCard,Money3,Cash in,Repayment,Repayment - Bpay,Payment Reversal - DebitCard,1,Reversal
+{d90943f6-a537-4e04-adc0-7a880260a940},Money3\Loan\Payment\Payment Salary,Money3,Cash in,Repayment,Repayment - Salary,Payment Salary,1,Transaction
+{0d09ef16-c8c6-4fd7-aa07-4d40ce7a3d60},Money3\Loan\Payment\Proceeds from Repossession,Money3,Cash in,Repayment,Repayment - Direct debit,Proceeds from Repossession,1,Transaction
+{0e71d163-0bf4-4185-8b48-9e7db7b471fe},Money3\Loan\Payment\Repayment Dishonour - New - Reversal,Money3,Cash in,Repayment,Dishonour,Repayment Dishonour - New - Reversal,1,Reversal
+{64a336b6-6562-4abe-809d-ddb951f4c24a},Money3\Loan\Payment\Repayment Dishonour - Old - Reversal,Money3,Cash in,Repayment,Dishonour,Repayment Dishonour - Old - Reversal,1,Reversal
+{244d60d7-2cef-4e24-8a7d-02c9cab998d1},Money3\Loan\Payment\Repayment Dishonour Manual,Money3,Cash in,Repayment,Dishonour,Repayment Dishonour Manual,1,Transaction
+{cde651a4-8f90-4baf-adc5-83e8499eaa3c},Money3\Loan\Payment\Repayment Dishonour Manual,Money3,Cash in,Repayment,Dishonour,Repayment Dishonour Manual,1,Transaction
+{e832ac26-3c19-41aa-871c-a08f9b698d69},Money3\Loan\Payment\Repayment Dishonour NEW,Money3,Cash in,Repayment,Dishonour,Repayment Dishonour NEW,1,Transaction
+{e94f9a24-9b1e-4275-a740-4fd51c4d3f71},Money3\LOC\Disbursement\Cash Disbursement - Drawdown,Money3,Cash Out,Disbursement,Disbursement,Cash Disbursement - Drawdown,1,Transaction
+{775161d1-ab1e-435b-93c6-8e6d53fd8bfe},Money3\LOC\Disbursement\Direct Credit - Drawdown,Money3,Cash Out,Disbursement,Disbursement,Direct Credit - Drawdown,1,Transaction
+{9f3fded2-344d-4f5c-8e26-efe4ed0b247f},Money3\LOC\Disbursement\Direct Credit - Drawdown - Reversal,Money3,Cash Out,Disbursement,Disbursement,Direct Credit - Drawdown - Reversal,1,Reversal
+{360f0924-92dd-4e5d-bff5-0026526f5645},Money3\LOC\Disbursement\Reversal\Cash Disbursement Payment Drawdown- Reversal,Money3,Cash Out,Disbursement,Disbursement,Reversal,1,Reversal
+{c1b0f505-72bd-4f1d-ac11-f45d77e4bf7d},Money3\LOC\Payment\Payment (Cash),Money3,Cash in,Repayment,Repayment - Cash,Payment - Cash,1,Transaction
+{f03763e2-eb24-4ca9-bef2-e525ade90ce8},Money3\LOC\Payment\Payment (Cheque),Money3,Cash in,Repayment,Repayment - Cheque,Payment (Cheque),1,Transaction
+{468824e4-f92e-428c-8000-de9d68619d23},Money3\LOC\Payment\Payment (Direct Debit) Capitalise Today,Money3,Cash in,Repayment,Repayment - Direct Debit,Payment (Direct Debit) Capitalise Today,1,Transaction
+{d685de8f-4009-4968-9fe6-bd63de507376},Money3\LOC\Payment\Payment (Salary),Money3,Cash in,Repayment,Repayment - Salary,Payment (Salary),1,Transaction
+{8ae7a940-e7de-47ba-a98e-6227241c4698},Money3\LOC\Payment\Payment Reversal,Money3,Cash in,Repayment,Repayment - Cash,Payment Reversal,1,Reversal
+{3a708976-2f8d-458c-bc45-dd23d1d4d2a0},Money3\MoneyGram\Disbursement\Amount Sent,Money3,Cash Out,MoneyGram,MoneyGram Sent,Amount Sent,1,Transaction
+{a97c5fcc-5625-48d2-9aeb-463e7cf7ab58},Money3\MoneyGram\Disbursement\Cash (Received),Money3,Cash in,MoneyGram,MoneyGram Received,Cash (Received),1,Transaction
+{8fd616f5-118f-4cc4-acfa-a9c48944edd8},Money3\MoneyGram\Disbursement\Cash (Sent),Money3,Cash Out,MoneyGram,MoneyGram Sent,Cash (Sent),1,Transaction
+{fb389b3e-43ec-4300-9445-c11403945d82},Money3\MoneyGram\Disbursement\MoneyGram Fee,Money3,Loan Fee,MoneyGram,MoneyGram Fee,MoneyGram Fee,1,Transaction
+{10dd208f-f453-4323-af7f-ef3a2a44df86},Money3\Insurance\Equity Plus Insurance,Money3,Insurance,Insurance,Insurance,GAP/Equity Insurance,1,Transaction
+{4b133079-a16a-4859-86e5-34b2963bce5e},Money3\Insurance\Comprehensive Insurance,Money3,Insurance,Insurance,Insurance,Comprehensive Insurance,1,Transaction
+{64228cb1-9fde-4d45-9d9c-ac93b8177fb5},Money3\Fee\ERD Discount,Money3,Loan Fee,Fee,Discharge,ERD Discount,1,Transaction
+{ab16bf8d-a13b-4af4-9ecf-f52aac361f22},Money3\Rental\Lease Abandoned - Vehicle Returned,Money3,Rental,Rental,Rental,Lease Abandoned - Vehicle Returned,1,Transaction
+{ebe294bf-5609-4ab7-b904-b1576c2fc836},Money3\Insurance\GAP/Equity Insurance,Money3,Insurance,Insurance,Insurance,GAP/Equity Insurance,1,Transaction
+{f1d448c2-d6dd-4e45-bb47-bab3f955d30a},Money3\Insurance\Extended Warranty,Money3,Insurance,Insurance,Insurance,Extended Warranty,1,Transaction
+{1d80d541-cd59-4e75-90d5-6c48e9c326ca},Money3\Loan\Payment\Repayment Dishonour - Cheque,Money3,Cash in,Repayment,Dishonour,Loan Dishonour,1,Transaction
+{274ab776-dbd9-4187-9621-2a5f08c68ab4},Money3\Discharge\Discharge Disbursement\Cheque,Money3,Cash In,Discharge,Repayment - Cheque,Discharge Transaction - Reimbursement  Cheque,1,Transaction
+{335c9ed6-5f11-4ca3-929c-46ecae08d729},Money3\Rental\Loan Add Ons,Money3,Rental,Rental,Rental,Loan Add Ons,1,Transaction
+{5edc0205-20a8-4e8d-872f-3a12b24ad271},Money3\Fee\Loan\Tax Agent Fee,Money3,Loan Fee,Fee,loan,Tax Agent Fee,1,Transaction
+{6a4dfee3-1090-4ae2-9421-079da332406c},Money3\Fee\Loan\Establishment Fee,Money3,Loan Fee,Fee,Establishment Fee,Establishment Fee,1,Transaction
+{a078d5d1-36d7-4b6f-b9c7-7a1649efaa90},Money3\Rental\Adjust Up - Initial Rental Amount,Money3,Rental,Rental,Rental,Adjust - Initial Rental Amount,1,Transaction
+{b024482a-6f8c-48af-bc0c-7b4ec926db1b},Money3\Insurance\Total Assist,Money3,Insurance,Insurance,Insurance,Total Assist,1,Transaction
+{d271376c-6495-43a6-8d21-1df2784400a5},Money3\Insurance\Cash Benefit,Money3,Insurance,Insurance,Insurance,Cash Benefit,1,Transaction
+{03f89803-662f-4234-bf8e-b59296b4961f},Money3\Insurance\Loan Termination Insurance,Money3,Insurance,Insurance,Insurance,Loan Termination Insurance,1,Transaction
+{1711bd64-942a-456a-b723-e65d3c877a89},Money3\Loan\Payment\Repayment Dishonour OLD,Money3,Cash in,Repayment,Dishonour,Loan Dishonour,1,Transaction
+{355d522c-02fb-4392-92fe-d5a32a8df435},Money3\Fee\Auction House Fee,Money3,Loan fee,Fee,Discharge,Auction House Fee,1,Transaction
+{532699e4-14a2-47c9-bc3f-3cc6f16ca813},Money3\Rental\Adjust Down - Initial Rental Amount,Money3,Rental,Rental,Rental,Adjust - Initial Rental Amount,1,Transaction
+{5f4bc663-fa5b-4281-8b1f-4b34a82c2a8c},Money3\Loan\Interest\Interest Adjustment (CR),Money3,Interest,Interest,Interest,Interest Adjustment (CR),1,Transaction
+{844b24ea-96c6-4a34-8e29-02f05406db15},Money3\Rental\Fines,Money3,Rental,Rental,Rental,Fines,1,Transaction
+{86b90c31-7d4c-407d-ac5e-ab39a83ab88e},Money3\Insurance\Loan Protection,Money3,Insurance,Insurance,Insurance,Loan Protection Insurance,1,Transaction
+{8d8555e4-a6b5-4b89-a097-4ce6e11ed478},Money3\Fee\WaiveCr,Money3,Waive,Fee,Waive,System Waived Credit,1,Transaction
+{91015862-144e-4c90-b7f0-5512c07339e8},Money3\Special\M3 Prinicpal Payment,Money3,Cash in,Repayment,Repayment,M3 Prinicpal Payment,0,Transaction
+{98284444-284e-44e1-a04b-7c4d6d984f8a},Money3\Rental\Payment Direct Credit Recieved,Money3,Rental,Rental,Rental,Payment (Direct Credit Received),1,Transaction
+{b3452828-3b39-485b-80ef-7a680a02a7ff},Money3\Conversion\Original Loan Amount,Money3,Conversion,Conversion,Conversion,Original Loan Amount,1,Transaction
+{b9feb75b-861d-45cc-b8d0-ee490e16e98f},Money3\Fee\Reversal\LACC Fee Refund,Money3,Loan Fee,Fee,loan,LACC Fee Refund,1,Reversal
+{ca70780d-3010-4011-8263-5fa438d612db},Money3\Insurance\Consumer Credit Insurance,Money3,Insurance,Insurance,Insurance,Consumer Credit Insurance,1,Transaction
+{cfaa6035-dc9e-49fd-ba1e-4917282f86a4},Money3\Insurance\Tyre,Money3,Insurance,Insurance,Insurance,Tyre Insurance,1,Transaction
+{d07f93a7-f98c-42b8-9953-a9a62879035e},Money3\Insurance\Purchase Price Protection,Money3,Insurance,Insurance,Insurance,Purchase Price Protection,1,Transaction
+{d297a55e-aa3a-4928-8b38-a6da5c72562f},Money3\Disbursement\Direct Credit - $20 Easter Promo Credit,Money3,Promotions,Promotions,Promotions,Direct Credit - $20 Easter Promo Credit,0,Transaction
+{f6260e2e-aa78-400a-8c8d-17af33ae0aaf},Money3\Conversion\Original Received (since loan started),Money3,Rental,Rental,Rental,Original Recieved (since loan started),1,Transaction
+{258561e7-1a5c-46df-a5fc-b565b854bd69},Money3\Rental\Termination Adjustment,Money3,Rental,Rental,Rental,Termination Adjustment,1,Transaction
+{3ad692bd-b95c-4076-a92c-6df406dd7d15},Money3\Disbursement\Initial Rental Amount,Money3,Rental,Rental,Rental,Initial Rental Amount,1,Transaction
+{4d6fd04e-d635-429c-9f74-bf03a5a049dc},Money3\Disbursement\Direct Credit - $50 for Free,Money3,Promotions,Promotions,Promotions,Direct Credit - $50 for Free,0,Transaction
+{58104117-e95f-415a-8905-36fc122c4983},Money3\Conversion\Opening Balance,Money3,Conversion,Conversion,Conversion,Opening Balance,1,Transaction
+{6fd932dc-2f78-43f4-9756-dc13291389ae},Money3\Fee\Reversal\LACC Waive,Money3,Waive,Fee,Waive,LACC Waive,1,Reversal
+{914d2104-748b-47fe-b580-3e9939c39d2a},Money3\LOC\Payment\Payment Reversal - Cash,Money3,Cash in,Repayment,Repayment,Payment Reversal - Cash,1,Reversal
+{9bba1416-e284-49b7-9eb8-9338afa9d139},Money3\Insurance\Marine Warranty,Money3,Insurance,Insurance,Insurance,Marine Warranty,1,Transaction
+{a09e0d9c-fe06-4404-b3b6-d454248bbae8},Money3\Insurance\Complete Car Care Cover,Money3,Insurance,Insurance,Insurance,Complete Car Care Cover,1,Transaction
+{c151b776-f6c8-4f36-aa5a-bab1cdb7e7c7},Money3\Fee\Rentals\Vehicle Penalty Fee,Money3,Rental,Rental,Rental,Penalty Fee,1,Transaction
+{ce886294-cb63-4892-89ac-1c67d8ad51d6},Money3\Insurance\Reversal\Insurance,Money3,Insurance,Insurance,Insurance,Insurance - Reversal,1,Reversal
+{E0D583A7-2FD0-4FF5-9CBF-414844BDADEE},Money3\Fee\Deferred Establishment Fee a,Money3,Loan fee,Fee,loan,Deferred Establishment Fee,1,Transaction
+{f332dcd2-e166-4b3a-92ab-be98a61be431},Money3\Insurance\Walkaway Insurance,Money3,Insurance,Insurance,Insurance,Walkaway Insurance,1,Transaction
+{fb12d670-dffe-40b2-97d6-6c82669029f4},Money3\Disbursement\Cash Disbursement - $20 Easter Promo Cash,Money3,Promotions,Promotions,Promotions,Cash Disbursement - $20 Easter Promo Cash,0,Transaction
+{020b0792-9879-4efe-82c5-bfc3d36d1a53},Money3\Fee\Waived\Money3 Waived (Credit),Money3,Waive,Fee,Waive,Money 3 - Waived,1,Transaction
+{184ff53b-899c-4bb9-929d-41cf58bd8864},Money3\Fee\Discharge\Negotiated Payout on Discharge - Reversal,Money3,,,,Negotiated Payout on Discharge - Reversal,1,Reversal
+{6afe506f-3621-49a6-a11f-80b34c60f8fd},Money3\Loan\Schedule\Instalment Due (Actual) - Payment,Money3,,,,Instalment Due (Actual)  - payment Reduces Schedule Balance,0,Transaction
+{7906e72d-a07d-483f-a827-77e5ea6340b6},Loan\AUFee\Dishonour Fee,Money3,,,,Dishonour Fee,1,Transaction
+{9d9bd706-59d5-4961-b8b6-377d4dd03c58},Loan\Fee\Application Fee Variable,Money3,,,,Application Fee,1,Transaction
+{ace232e8-0025-4daf-8535-4e31e55ce71f},Loan\Payment\Repayment (Salary Payment),Money3,,,,Repayment (Salary Payment),1,Transaction
+{0840764e-0450-403e-a3d7-d53568f13b4b},Money3\Fee\Reversal\Loan\Establishment Fee - Reversal,Money3,,,,Establishment Fee - Reversal,1,Reversal
+{09cd3218-dd59-44ae-8fd3-c8f45bc501d5},Loan\Reverse\Payment\Dishonor - Payment,Money3,,,,Dishonor Payment,1,Transaction
+{1d6067dc-7ba1-44d8-9b4b-cce76104549f},Cash\Cash Out,Money3,,,,Cash Out,0,Transaction
+{35a34462-1ccb-4eb0-9ac6-b1eb9ff881f8},Cash\Cash In,Money3,,,,Cash In,0,Transaction
+{49f78202-9813-40f4-a25a-00678301c3b1},Money3\Rental\Lease Abandoned - Vehicle Returned - REVERSAL,Money3,,,,Lease Abandoned - Vehicle Returned - REVERSAL,1,Reversal
+{5015f0a3-8759-462c-ae67-16796e541ab2},Money3\Fee\Rentals\Whitegoods Penalty Fee,Money3,,,,Penatlty Fee,1,Transaction
+{8c250320-2b75-4174-b5d0-78d3ed2892e4},Cash\Transfer Out,Money3,,,,Transfer Out,1,Transaction
+{2058fce5-e25f-4aa8-b2f0-1ad0474a1ac0},Loan\Schedule\Interest (DB),Money3,,,,Schedule Interest,0,Transaction
+{3fdb41a1-c23f-4173-8fca-d2374962306e},Money3\Fee\Loan\Monthly Account Fee - Payment,Money3,,,,Monthly Account Fee - Payment,1,Transaction
+{5c9fa965-8a82-4167-ba6e-0085e35ad597},Money3\Fee\Reversal\ERD Reversal,Money3,Loan Fee,Fee,Reversal,Reversal - ERD Discount,1,Reversal
+{67440f09-f0ef-4371-9613-f58645bef916},Money3\Rental\Excess Charge,Money3,,,,Excess Charge,1,Transaction
+{6c5b1412-87bb-4fa6-bab9-948bd56c9258},Loan\Reverse\Fee\Deferred Establishment Fee Reversal,Money3,Loan Fee,Fee,Reversal,Deferred Establishment Fee Reversal,1,Reversal
+{9cf0ba93-92e0-4f01-b45c-ad13e219654b},Money3\MoneyGram\Reversal\Fee (Reversal),Money3,,,,Fee - Reversal,1,Reversal
+{19251fb5-5a82-4abf-bfc9-c6ee49cf34a4},Cash\Transfer In,Money3,,,,Transfer In,1,Transaction
+{1d33627b-f8f8-4268-99b4-e94146b6a7bf},Money3\Fee\Reversal\Additional Monthly Fees,Money3,,,,Additional Monthly Fees,1,Reversal
+{369d0352-6702-44dc-86a5-aa1e63d43a28},Money3\LOC\Payment\Payment (Direct Debit) Capitalise next effective dates,Money3,,,,Payment (Direct Debit),1,Transaction
+{55c6be02-2fee-43fe-b09b-a7b7d56bda68},Money3\MoneyGram\Reversal\Amount Sent - Reversal,Money3,,,,Amount Sent - Reversal,1,Reversal
+{7a2174ac-fbc7-445a-b0f0-6d7478fa4e53},Money3\Loan\Schedule\Instalment Due (Actual),Money3,,,,Instalment Due (Actual) increase Arrears,0,Transaction
+{ae41de08-ec8c-4b96-a4b2-025043c77fed},Money3\Rental\Adjust Down - Initial Rental Amount - REVERSAL,Money3,,,,Adjust - Initial Rental Amount - REVERSAL,1,Reversal
+{c76d3e8d-782a-45b3-b95d-a0214fcc9c77},Money3\MoneyGram\Disbursement\Amount Received,Money3,,,,Amount Received,1,Transaction
+{cca0ab8d-987a-46f1-88c5-9f8746252f07},Money3\MoneyGram\Reversal\Cash (Sent) - Reversal,Money3,,,,Total Amount Collected (Cash Disbursement) - Reversal,1,Reversal
