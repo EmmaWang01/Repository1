@@ -1,0 +1,141 @@
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe.config
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\AGauge.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\CrollControls.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\DashboardControls.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\FullScreenMode.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\LiveGraph.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\NetUtils.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\ObjectListView.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\SparkleLibrary.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\SpPerfChart.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\SriClocks.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\VistaMenuControl.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\XCoolForm.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmMain.resources
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmSettings.resources
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.Properties.Resources.resources
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucAPLRunningcs.resources
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucITDiagnostics.resources
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\Money3StatusBoard.csproj.GenerateResource.Cache
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.exe
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\AGauge.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\CrollControls.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\DashboardControls.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\FullScreenMode.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\LiveGraph.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\NetUtils.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\ObjectListView.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\SparkleLibrary.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\SpPerfChart.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\SriClocks.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\VistaMenuControl.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\XCoolForm.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmMain.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmSettings.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucAPLRunningcs.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucITDiagnostics.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\Money3StatusBoard.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\Money3StatusBoard.csprojResolveAssemblyReference.cache
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe.config
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.exe
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.pdb
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.pdb
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\AGauge.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\CrollControls.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\DashboardControls.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\FullScreenMode.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\LiveGraph.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\NetUtils.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\ObjectListView.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\SparkleLibrary.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\SpPerfChart.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\SriClocks.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\VistaMenuControl.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\bin\Release\XCoolForm.dll
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\Money3StatusBoard.csprojResolveAssemblyReference.cache
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmMain.resources
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmSettings.resources
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.Properties.Resources.resources
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucAPLRunningcs.resources
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucITDiagnostics.resources
+C:\Users\d.finnegan\Documents\Visual Studio 2013\Projects\Money3StatusBoards\WebCenter\obj\x86\Release\Money3StatusBoard.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\AGauge.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\CrollControls.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\DashboardControls.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\FullScreenMode.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\LiveGraph.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\NetUtils.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\ObjectListView.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\SparkleLibrary.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\SpPerfChart.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\SriClocks.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\VistaMenuControl.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\bin\Release\XCoolForm.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmMain.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmSettings.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucAPLRunningcs.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucITDiagnostics.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\Money3StatusBoard.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.pdb
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe.config
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.pdb
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\AGauge.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\CrollControls.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\DashboardControls.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\FullScreenMode.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\LiveGraph.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\NetUtils.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\ObjectListView.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\SparkleLibrary.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\SpPerfChart.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\SriClocks.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\VistaMenuControl.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\bin\Release\XCoolForm.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmMain.resources
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmSettings.resources
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.Properties.Resources.resources
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucAPLRunningcs.resources
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucITDiagnostics.resources
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\Money3StatusBoard.csproj.GenerateResource.Cache
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.exe
+C:\Users\e.wang\Desktop\APL Dev\Dashboard\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.pdb
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\Money3 StatusBoard.exe.config
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\obj\x86\Release\Money3 StatusBoard.exe
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\obj\x86\Release\Money3 StatusBoard.pdb
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\Money3 StatusBoard.exe
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\Money3 StatusBoard.pdb
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\AGauge.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\CrollControls.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\DashboardControls.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\FullScreenMode.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\LiveGraph.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\NetUtils.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\ObjectListView.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\SparkleLibrary.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\SpPerfChart.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\SriClocks.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\VistaMenuControl.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\bin\Release\XCoolForm.dll
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\obj\x86\Release\Money3StatusBoard.csprojResolveAssemblyReference.cache
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\obj\x86\Release\LoanCenter.frmMain.resources
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\obj\x86\Release\LoanCenter.frmSettings.resources
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\obj\x86\Release\LoanCenter.Properties.Resources.resources
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\obj\x86\Release\LoanCenter.ucAPLRunningcs.resources
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\obj\x86\Release\LoanCenter.ucITDiagnostics.resources
+C:\Users\e.wang\Desktop\APL Dev\Dashboard_statusboard\Money3StatusBoards_SouceCode\WebCenter\obj\x86\Release\Money3StatusBoard.csproj.GenerateResource.Cache

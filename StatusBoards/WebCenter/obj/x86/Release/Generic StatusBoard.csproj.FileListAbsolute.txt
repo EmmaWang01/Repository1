@@ -1,0 +1,81 @@
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe.config
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.exe
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.pdb
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.pdb
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\CrollControls.dll
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\DashboardControls.dll
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\FullScreenMode.dll
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\SparkleLibrary.dll
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\VistaMenuControl.dll
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\DashboardControls.pdb
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\DashboardControls.xml
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\CrollControls.pdb
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\SparkleLibrary.pdb
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\VistaMenuControl.pdb
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmMain.resources
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmSettings.resources
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\LoanCenter.Properties.Resources.resources
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\SriClocks.dll
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucITDiagnostics.resources
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucAPLRunningcs.resources
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\AGauge.dll
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\SpPerfChart.dll
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\AGauge.pdb
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\XCoolForm.dll
+C:\Dev 2012\Money3\Win\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\XCoolForm.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe.config
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.exe
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\AGauge.dll
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\CrollControls.dll
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\DashboardControls.dll
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\FullScreenMode.dll
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\SparkleLibrary.dll
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\SpPerfChart.dll
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\SriClocks.dll
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\VistaMenuControl.dll
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\XCoolForm.dll
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\DashboardControls.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\DashboardControls.xml
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\CrollControls.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\SparkleLibrary.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\AGauge.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\VistaMenuControl.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\bin\Release\XCoolForm.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\Generic StatusBoard.csprojResolveAssemblyReference.cache
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmMain.resources
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmSettings.resources
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\LoanCenter.Properties.Resources.resources
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucAPLRunningcs.resources
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucITDiagnostics.resources
+C:\Dev_Tools\Realtime Statusboards 2012\StatusBoards\WebCenter\obj\x86\Release\Generic StatusBoard.csproj.GenerateResource.Cache
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe.config
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.exe
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\Money3 StatusBoard.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.exe
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\Money3 StatusBoard.pdb
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\AGauge.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\CrollControls.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\DashboardControls.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\FullScreenMode.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\SparkleLibrary.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\SpPerfChart.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\SriClocks.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\VistaMenuControl.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\XCoolForm.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\Generic StatusBoard.csprojResolveAssemblyReference.cache
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmMain.resources
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.frmSettings.resources
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.Properties.Resources.resources
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucAPLRunningcs.resources
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\LoanCenter.ucITDiagnostics.resources
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\obj\x86\Release\Generic StatusBoard.csproj.GenerateResource.Cache
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\LiveGraph.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\NetUtils.dll
+C:\Dev_Tools\Realtime Statusboards 2012\Money3StatusBoards\WebCenter\bin\Release\ObjectListView.dll

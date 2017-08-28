@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FullScreenMode</name>
+    </assembly>
+    <members>
+        <member name="T:FullScreenMode.HandleTaskBar">
+            <summary>
+            This class will show or hide windows taskbar for full screen mode.
+            </summary>
+        </member>
+        <member name="M:FullScreenMode.HandleTaskBar.#ctor">
+            <summary>
+            Default Constructor.
+            </summary>
+        </member>
+        <member name="M:FullScreenMode.HandleTaskBar.showTaskBar">
+            <summary>
+            Show the TaskBar.
+            </summary>
+        </member>
+        <member name="M:FullScreenMode.HandleTaskBar.hideTaskBar">
+            <summary>
+            Hide the TaskBar.
+            </summary>
+        </member>
+        <member name="T:FullScreenMode.FullScreen">
+            <summary>
+            This class will help you to hide or show 
+            a winform in full screen mode. 
+            Any one can use this source code without restriction.
+            I'm not responsible for any error.
+            </summary>
+        </member>
+        <member name="M:FullScreenMode.FullScreen.#ctor(System.Windows.Forms.Form)">
+            <summary>
+            Full screen constructor.
+            </summary>
+            <param name="form">The WinForm to be show or hide as full screen</param>
+        </member>
+        <member name="M:FullScreenMode.FullScreen.ScreenMode">
+            <summary>
+            Show or Hide your WinForm in full screen mode.
+            </summary>
+        </member>
+        <member name="M:FullScreenMode.FullScreen.ShowFullScreen">
+            <summary>
+            Show or hide full screen mode
+            </summary>
+        </member>
+        <member name="M:FullScreenMode.FullScreen.ResetTaskBar">
+            <summary>
+            You can use this to reset the Taskbar in case of error.
+            I don't want to handle exception in this class.
+            You can change it if you like!
+            </summary>
+        </member>
+    </members>
+</doc>
